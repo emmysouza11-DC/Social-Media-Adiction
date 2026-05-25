@@ -1,21 +1,30 @@
-# Social Media Addiction & Mental Health
+# Social Media & Mental Health
 
-Análisis exploratorio del dataset [Social Media Addiction and Mental Health](https://www.kaggle.com/datasets/abdulmaliklodhra/social-media-addiction-and-mental-health-dataset) de Kaggle.
+Análisis exploratorio de la relación entre el uso de redes sociales y la 
+depresión, basado en datos de encuesta real.
+
+**Fuente:** [Social Media and Mental Health](https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health) — Kaggle  
+**Muestra:** 478 participantes, encuesta universitaria
 
 ## Objetivo
 
-Explorar el impacto del uso de redes sociales sobre la depresión en jóvenes a partir de 10 archivos CSV con distintas dimensiones del problema.
+Explorar si el tiempo de uso, la búsqueda de validación y otros comportamientos 
+en redes sociales se correlacionan con niveles de depresión reportados.
 
 ## Estructura
 
 Social-Media-Adiction/
 ├── data/
-│   ├── raw/          # CSV originales (no versionados)
-│   └── processed/    # Datos limpios
+│   ├── raw/          # CSV original (no versionado)
+│   └── processed/    # Dataset limpio
 ├── notebooks/        # Análisis en Jupyter
+│   ├── 01_exploracion.ipynb
+│   ├── 02_limpieza.ipynb
+│   └── 03_analisis.ipynb
 ├── src/              # Funciones reutilizables
 ├── reports/
-│   └── figures/      # Gráficos exportados
+│   ├── figures/      # Gráficos exportados
+│   └── preguntas_analisis.md
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -28,4 +37,4 @@ Social-Media-Adiction/
 
 ## Estado
 
-En progreso — fase de exploración.
+En progreso — fase de análisis.
